@@ -2,7 +2,7 @@
     hooks:
     -   id: tests
         name: run tests
-        entry: python -m unittest discover
+        entry: python3 -m unittest tests/unit_tests.py -v 
         language: python
         types: [python]
         stages: [commit]
