@@ -1,8 +1,0 @@
--   repo: local
-    hooks:
-    -   id: tests
-        name: run tests
-        entry: python3 -m unittest tests/unit_tests.py -v 
-        language: python
-        types: [python]
-        stages: [commit]
