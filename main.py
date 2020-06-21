@@ -43,5 +43,5 @@ class Person():
 	def add_pet_name(self, pet_name):
 		self.pets_names.append(pet_name)
 
-	def remove_pet_name(self, pet_name): # :'( very sad
+	def remove_pet_name(self, pet_name): # :'( very sad extra sad
 		self.pets_names.remove(pet_name)
