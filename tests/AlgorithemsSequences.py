@@ -27,6 +27,3 @@ class Test_Algorithems_Sequences(unittest.TestCase):
 		self.assertEqual(main.fibonacci(main.factorial(5)), 5358359254990966640871840) # the 120th fibinaci number
 		self.assertEqual(main.fibonacci(main.my_sequence(16)), 3210056809456107725247980776292056) # 162th fibinaci number
 
-
-if __name__ == '__main__':
-	unittest.main()
